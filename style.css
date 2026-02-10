@@ -593,8 +593,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
     background-color: #252B42;
 }
 .container-new h2{
@@ -604,8 +602,8 @@
     font-size: 40px;
     line-height: 57px;
     letter-spacing: 0.2px;
-    color: black;
-    padding: 20px 50px;
+    color: white;
+    padding: 20px 60px;
 }
 .container-new p{
     font-family: "Montserrat", sans-serif;
@@ -613,7 +611,7 @@
     font-size: 24px;
     line-height: 38px;
     letter-spacing: 0.2px;
-    color: black;
+    color: white;
     padding: 10px 100px;
 }
 .container-new-buttons{
@@ -625,20 +623,24 @@
     line-height: 28px;
     letter-spacing: 0.2px;
     font-weight: 700;
+    padding-right: 40px;
     color: white;
     cursor: pointer;
     
 }
+.container-new-buttons button{
+    padding: 10px 10px;
+}
 .new-btn1{
     width: 100px;
     background: #FA4A0C;
-    border-radius: 10px;
     border: 1px solid #FA4A0C;
 }
 .new-btn2{
     width: 100px;
     border: 1px solid white;
-    border-radius: 10px;
+    background-color: #FFFFFF;
+    
     
     
 }
@@ -649,6 +651,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;}
+
 .footer-logo{
     display: none;
 }
