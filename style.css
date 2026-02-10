@@ -588,7 +588,7 @@
     display: none;
 }
 .container-new {
-    max-width: 418px;
+    width: 418px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -596,23 +596,26 @@
     background-color: #252B42;
 }
 .container-new h2{
-    width: 310px;
+    width: Hug(310px);
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
     letter-spacing: 0.2px;
     color: white;
-    padding: 20px 60px;
+    padding-left: 44px;
+    padding-right: 44px;
 }
 .container-new p{
+    width: Hug(245px);
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
     letter-spacing: 0.2px;
     color: white;
-    padding: 10px 100px;
+    padding-left: 44px;
+    padding-right: 44px;
 }
 .container-new-buttons{
     display: flex;
@@ -623,7 +626,7 @@
     line-height: 28px;
     letter-spacing: 0.2px;
     font-weight: 700;
-    padding-right: 40px;
+    padding-right: 50px;
     color: white;
     cursor: pointer;
     
@@ -647,7 +650,7 @@
 
 .footer{
     width: 414px;
-    padding: 20px;
+    padding: 40px;
     flex-direction: column;
     align-items: center;
     gap: 20px;}
