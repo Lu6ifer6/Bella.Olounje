@@ -146,10 +146,10 @@
 }
 /* HR */
 .hr {
-    width: 884px;
+    width: 854px;
     border: 3px solid #E4E4E4;
     margin-top: 128.91px;
-    margin-left: 278px;
+    margin-left: 280px;
 
 }
 /* HOW THE APP WORKS */
@@ -446,6 +446,7 @@
     color: black;
 }
 .store{
+
     flex-direction:column;
     align-items:center;
     gap:15px;
@@ -476,7 +477,7 @@
 .mobile-phone img{
     position:relative;
     width:260px;
-    margin: -200px auto;
+    margin: -200px;
 
 }
 .hr{
@@ -545,7 +546,7 @@
 .varieties-text{
     max-width: 100%;
     width: 357px;
-    margin-left: -50px;
+    margin-left: -40px;
     text-align:center;
 }
 .varieties-text h3{
@@ -582,7 +583,7 @@
     max-width: 670px;
     margin:0;
     text-align: center;
-    padding-left: 50px;
+    padding-left: 0px;
 }
 .container{
     display: none;
@@ -618,33 +619,43 @@
     padding-right: 44px;
 }
 .container-new-buttons{
+    width: 420px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     gap: 20px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.2px;
-    font-weight: 700;
-    padding-right: 50px;
-    color: white;
-    cursor: pointer;
+    
     
 }
-.container-new-buttons button{
+.container-new-buttons button {
+    width: 220px;
     padding: 10px 10px;
 }
-.new-btn1{
-    width: 100px;
-    background: #FA4A0C;
+.buy-now {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    background:#FA4A0C;
     border: 1px solid #FA4A0C;
+    color:white;
+    border-radius: 10px;
+    padding: 20px;
 }
-.new-btn2{
-    width: 100px;
+.try-for-free {
+    width: 186px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
     border: 1px solid white;
-    background-color: #FFFFFF;
-    
-    
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+   
     
 }
 
