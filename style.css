@@ -348,12 +348,14 @@
     letter-spacing: 0.1px;
     color: #5c5c5c;
 }
+.media-copyright {
+     display: none;
+}
 
 /* SECTION2 CONTAINER */
 .container-new {
     display: none;
     max-width: 100%;
-    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -671,12 +673,33 @@
 
 .footer{
     width: 414px;
-    padding: 40px;
+    padding-bottom: 20px;
     flex-direction: column;
     align-items: center;
     gap: 20px;}
 
 .footer-logo{
     display: none;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer h4{
+    display: none;
+}
+.media-copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5C5C5C;
+    margin-bottom: 45px;
+    
 }
 }
