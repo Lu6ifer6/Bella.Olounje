@@ -411,9 +411,9 @@
     
 }
 
-@media screen and (max-width:414px){
+@media screen and (max-width:425px){
 .header{
-    width: 414px;
+    width: 425px;
     padding: 16px;
     justify-content: start;
     gap: 100px;
@@ -430,7 +430,7 @@
     
 }
 .hero{
-    width: 414px;
+    width: 425px;
     background-image: none;
     background-color: #FAFAFA;
 }
@@ -601,7 +601,7 @@
     display: none;
 }
 .container-new {
-    width: 418px;
+    width: 425px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -613,6 +613,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 40px;
+    text-align: center;
     line-height: 57px;
     letter-spacing: 0.2px;
     color: white;
@@ -625,6 +626,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
+    text-align: center;
     letter-spacing: 0.2px;
     color: white;
     padding-left: 44px;
