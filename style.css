@@ -43,6 +43,10 @@
     color:#FA4A0C;
 }
 
+.box-menu{
+    display:none;
+}   
+
 /* HERO */
 .hero{
     width: 100%;
@@ -77,7 +81,6 @@
     letter-spacing: 0.2;
     font-family: "Montserrat", sans-serif;
     padding-bottom: 10px;
-
 }
 
 .hero-text h3 {
@@ -416,6 +419,13 @@
 
 .nav{
     display:none;
+}
+
+.box-menu{
+    display:block;
+    position:absolute;
+    right:16px;
+    
 }
 .hero{
     width: 414px;
